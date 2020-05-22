@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/WilsonLawler/githubPortfolioPWA/static/js/main.7a422d7c.chunk.js",
-    "main.js.map": "/WilsonLawler/githubPortfolioPWA/static/js/main.7a422d7c.chunk.js.map",
-    "runtime-main.js": "/WilsonLawler/githubPortfolioPWA/static/js/runtime-main.54217288.js",
-    "runtime-main.js.map": "/WilsonLawler/githubPortfolioPWA/static/js/runtime-main.54217288.js.map",
-    "static/js/2.18b6d339.chunk.js": "/WilsonLawler/githubPortfolioPWA/static/js/2.18b6d339.chunk.js",
-    "static/js/2.18b6d339.chunk.js.map": "/WilsonLawler/githubPortfolioPWA/static/js/2.18b6d339.chunk.js.map",
-    "index.html": "/WilsonLawler/githubPortfolioPWA/index.html",
-    "precache-manifest.07a2d167e8a9318de9f99172d6282642.js": "/WilsonLawler/githubPortfolioPWA/precache-manifest.07a2d167e8a9318de9f99172d6282642.js",
-    "service-worker.js": "/WilsonLawler/githubPortfolioPWA/service-worker.js",
-    "static/js/2.18b6d339.chunk.js.LICENSE.txt": "/WilsonLawler/githubPortfolioPWA/static/js/2.18b6d339.chunk.js.LICENSE.txt",
-    "static/media/gitHubLogo.png": "/WilsonLawler/githubPortfolioPWA/static/media/gitHubLogo.da957304.png"
+    "main.js": "/githubPortfolioPWA/static/js/main.939180e5.chunk.js",
+    "main.js.map": "/githubPortfolioPWA/static/js/main.939180e5.chunk.js.map",
+    "runtime-main.js": "/githubPortfolioPWA/static/js/runtime-main.b1af904f.js",
+    "runtime-main.js.map": "/githubPortfolioPWA/static/js/runtime-main.b1af904f.js.map",
+    "static/js/2.222b3a04.chunk.js": "/githubPortfolioPWA/static/js/2.222b3a04.chunk.js",
+    "static/js/2.222b3a04.chunk.js.map": "/githubPortfolioPWA/static/js/2.222b3a04.chunk.js.map",
+    "index.html": "/githubPortfolioPWA/index.html",
+    "precache-manifest.536844f86edb4cf87408f421f5970dd9.js": "/githubPortfolioPWA/precache-manifest.536844f86edb4cf87408f421f5970dd9.js",
+    "service-worker.js": "/githubPortfolioPWA/service-worker.js",
+    "static/js/2.222b3a04.chunk.js.LICENSE.txt": "/githubPortfolioPWA/static/js/2.222b3a04.chunk.js.LICENSE.txt",
+    "static/media/gitHubLogo.png": "/githubPortfolioPWA/static/media/gitHubLogo.da957304.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54217288.js",
-    "static/js/2.18b6d339.chunk.js",
-    "static/js/main.7a422d7c.chunk.js"
+    "static/js/runtime-main.b1af904f.js",
+    "static/js/2.222b3a04.chunk.js",
+    "static/js/main.939180e5.chunk.js"
   ]
 }
