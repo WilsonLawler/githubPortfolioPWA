@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Link from '../components/Link/Link';
 import List from '../components/List/List';
-import '../containers/Profile.css';
+
+const ProfileWrapper = styled.div`
+width: 50%;
+margin: 10px auto;
+ `;
+const Avatar = styled.img`
+width: 150px;
+ `;
 
 class Profile extends Component {
     state = {
@@ -42,10 +50,10 @@ class Profile extends Component {
             )
         }
         return (
-            <div className='Profile-container'>
-                <img className='Profile-avatar' src={data.avatar_url} alt="avatar" />
+            <ProfileWrapper>
+                <Avatar src={data.avatar_url} alt='avatar' />
                 <List items={items} />
-            </div>
+            </ProfileWrapper>
         );
     }
 }
