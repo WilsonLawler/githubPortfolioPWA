@@ -16,9 +16,11 @@ class Profile extends Component {
         data: {},
         repos: [],
         loading: true,
+        error: '',
     }
 
     async componentDidMount() {
+        try {
         const profile = await fetch('https://api.github.com/users/WilsonLawler');
         const profileJSON = await profile.json();
 
@@ -33,11 +35,18 @@ class Profile extends Component {
                 loading: false,
             })
         }
+    } 
+    catch(error) {
+        this.setState({
+            loading: false,
+            error: error.message,
+        });
+    }
     }
 
 
     render() {
-        const { data, loading, repos } = this.state;
+        const { data, loading, repos, error } = this.state;
         const items = [
             {
                 label: 'html_url', value: <Link url={data.html_url}
@@ -54,9 +63,9 @@ class Profile extends Component {
             label: repo.name,
             value: <Link url={repo.html_url} title='Github URL' />
         }));
-        if (loading) {
+        if (loading || error) {
             return (
-                <div>Loading...</div>
+                <div>{ loading ? 'Loading...' : error }</div>
             )
         }
         return (
